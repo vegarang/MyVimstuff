@@ -23,15 +23,16 @@ if exists('&macatsui')
 	set nomacatsui
 endif
 
+set vb t_vb=''
 
-"colorscheme molokai
-"set background=light
+colorscheme molokai
+set background=dark
 "colorscheme default
 "set background=light
 "colorscheme pyte
 
-set background=light
-colorscheme osx_like
+"set background=light
+"colorscheme osx_like
 
 if filereadable(expand("~/.vim/gvimrc.local"))
 	source ~/.vim/gvimrc.local
