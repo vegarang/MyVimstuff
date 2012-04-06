@@ -23,7 +23,7 @@ if exists('&macatsui')
 	set nomacatsui
 endif
 
-set vb t_vb=''
+set vb t_vb="
 
 colorscheme molokai
 set background=dark
